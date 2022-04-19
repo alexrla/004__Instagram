@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*   {
+    box-sizing: border-box;
+}
+
+body    {
+    align-items: center;
+
+    background: #FAFAFA;
+
+    display: flex;
+
+    font-family: 'Roboto', sans-serif;
+
+    justify-content: center;
+}
+
+header  {
+    align-items: center;
+
+    background: #FFFFFF;
+
+    border-bottom: 2px solid #DBDBDB;
+
+    display: flex;
+
+    justify-content: center;
+
+    height: 54px;
+
+    position: fixed;
+
+    top: 0;
+
+    width: 100%;
+}
+
+.cabecalho  {
+    align-items: center;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    width: 935px;
+}
+
+.cabecalho__secao_1 {
+    display: flex;
+}
+
+.cabecalho__icon    {
+    font-size: 22px;
+}
+
+.cabecalho__barraVertical   {
+    background: #DBDBDB;
+
+    height: 22px;
+
+    margin: 0 10px;
+
+    width: 1px;
+}
+
+.cabecalho__logo    {
+    height: 29px;
+
+    width: 103px;
+}
+
+.cabecalho__barraDePesquisa {
+    background: #FAFAFA;
+
+    border: 1px solid #DBDBDB;
+
+    border-radius: 3px;
+
+    font-size: 12px;
+
+    font-weight: 400;
+
+    height: 28px;
+
+    text-align: center;
+
+    width: 215px;
+}
+
+.cabecalho__EspacamentoIcon {
+    padding-right: 10px;
+}
+
+.cabecalho__EspacamentoIcon:last-child  {
+    padding-right: 0;
+}
