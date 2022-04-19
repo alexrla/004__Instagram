@@ -1,0 +1,73 @@
+main    {
+    margin-top: 89px;
+
+    width: 935px;
+}
+
+/* Seção stories */
+
+.stories {
+    align-items: center;
+
+    background: #FFFFFF;
+
+    border: 1px solid #DBDBDB;
+
+    border-radius: 3px;
+
+    display: flex;
+
+    height: 118px;
+
+    overflow: hidden;
+
+    position: relative;
+
+    width: 614px;
+}
+
+.story  {
+    margin-left: 20px;
+
+    text-align: center;
+}
+
+.story__background {
+    height: 66px;
+
+    position: relative;
+
+    width: 66px;
+}
+
+.story__imagem {
+    height: 56px;
+
+    left: 5px;
+
+    position: absolute;
+
+    top: 5px;
+
+    width: 56px;
+}
+
+.story__user    {
+    font-size: 12px;
+
+    font-weight: 400;
+
+    margin-top: 5px;
+}
+
+.stories__icon  {
+    color: #FFFFFF;
+
+    cursor: pointer;
+
+    font-size: 32px;
+
+    position: absolute;
+
+    right: 0;
+}
