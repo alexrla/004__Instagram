@@ -1,4 +1,4 @@
-main    {
+.conteudo__principal    {
     margin-top: 89px;
 
     position: relative;
@@ -82,6 +82,8 @@ main    {
     margin-top: 25px;
     
     margin-bottom: 50px;
+
+    width: 614px;
 }
 
 .post   {
@@ -348,4 +350,13 @@ main    {
 
 .sidebar__final__textos:last-child  {
     padding-top: 20px;
+}
+
+@media (max-width: 935px)   {
+    .conteudo__principal    {
+        width: 614px;
+    }
+    .sidebar    {
+        display: none;
+    }
 }
