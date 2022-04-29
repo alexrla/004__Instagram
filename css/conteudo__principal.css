@@ -235,6 +235,10 @@
     display: flex;
 
     margin-top: 20px;
+
+    position: fixed;
+
+    top: 89px;
 }
 
 .sidebar__topo__textos  {
@@ -259,6 +263,10 @@
 
 .sidebar__meio  {
     margin-top: 25px;
+
+    position: fixed;
+
+    top: 170px;
 }
 
 .sidebar__meio__topo    {
@@ -336,6 +344,10 @@
 
 .sidebar__final {
     margin-top: 30px;
+
+    position: fixed;
+
+    top: 447px;
 }
 
 .sidebar__final__textos {
