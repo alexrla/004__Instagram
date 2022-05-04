@@ -11,6 +11,8 @@ body    {
 
     display: flex;
 
+    flex-direction: column;
+
     font-family: 'Roboto', sans-serif;
 
     justify-content: center;
@@ -96,4 +98,10 @@ header  {
 
 .cabecalho__EspacamentoIcon:last-child  {
     padding-right: 0;
+}
+
+/* Cabeçalho mobile */  
+
+.cabecalho__mobile  {
+    display: none;
 }

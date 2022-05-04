@@ -1,4 +1,4 @@
-.conteudo__principal    {
+main   {
     margin-top: 89px;
 
     position: relative;
@@ -365,10 +365,17 @@
 }
 
 @media (max-width: 935px)   {
-    .conteudo__principal    {
+    main    {
         width: 614px;
     }
+    
     .sidebar    {
         display: none;
     }
+}
+
+/* Rodapé mobile */
+
+footer  {
+    display: none;
 }

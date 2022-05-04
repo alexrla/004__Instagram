@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/cabecalho.css">
         <link rel="stylesheet" href="css/conteudo__principal.css">
+        <link rel="stylesheet" href="css/mobile.css">
     </head>
 
     <body>
@@ -37,9 +38,17 @@
                     <ion-icon name="person-outline" class="cabecalho__icon cabecalho__EspacamentoIcon"></ion-icon>
                 </div>
             </div>
+
+            <div class="cabecalho__mobile">
+                <ion-icon name="logo-instagram" class="cabecalho__icon iconMobile__esquerda"></ion-icon>
+                
+                <img src="img/logo.png" alt="Logo" class="cabecalho__logo">
+
+                <ion-icon name="paper-plane-outline" class="cabecalho__icon cabecalho__EspacamentoIcon iconMobile__direita"></ion-icon>
+            </div>
         </header>
 
-        <main class="conteudo__principal">
+        <main>
             <section class="stories">
                 <div class="story">
                     <div class="story__background">
@@ -357,6 +366,20 @@
                 </div>
             </aside>
         </main>
+
+        <footer>
+            <div class="rodape">
+                <ion-icon name="home" class="icon__rodape"></ion-icon>
+
+                <ion-icon name="search-outline" class="icon__rodape"></ion-icon>
+
+                <ion-icon name="add-circle-outline" class="icon__rodape"></ion-icon>
+
+                <ion-icon name="heart-outline" class="icon__rodape"></ion-icon>
+
+                <ion-icon name="person-outline" class="icon__rodape"></ion-icon>
+            </div>
+        </footer>
 
         <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     </body>
