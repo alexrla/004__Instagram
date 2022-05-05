@@ -369,6 +369,14 @@ main   {
         width: 614px;
     }
     
+    .cabecalho__secao_1 {
+        margin-left: 25px;
+    }
+
+    .cabecalho__secao_3 {
+        margin-right: 25px;
+    }
+
     .sidebar    {
         display: none;
     }
